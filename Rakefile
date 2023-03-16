@@ -34,7 +34,7 @@ HOE = Hoe.spec 'barby-pdf417' do
     ["hoe-gemspec",     ">= 1.0"],
     ["hoe-git",         ">= 1.4"],
     ["minitest",        "~> 2.2.2"],
-    ["rake",            ">= 0.9"],
+    ["rake",            ">= 12.r2"],
     ["rake-compiler",   "~> 0.8.0"],
   ]
 
@@ -43,7 +43,7 @@ HOE = Hoe.spec 'barby-pdf417' do
   else
     self.spec_extras = {
       :extensions => ["ext/pdf417/extconf.rb"],
-      :required_ruby_version => '>= 1.9.2'
+      :required_ruby_version => '>= 3.2.1'
     }
   end
 
