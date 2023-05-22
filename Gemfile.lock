@@ -20,7 +20,7 @@ GEM
       rake
     rdoc (6.5.0)
       psych (>= 4.0.0)
-    stringio (3.0.5)
+    stringio (3.0.6)
 
 PLATFORMS
   java
